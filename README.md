@@ -23,3 +23,22 @@ The database `agrianalytics` contains 4 tables:
 3. **Fertilizer vs Profit:** Farmers using 90kg fertilizer earned highest income of ₹1,54,000
 4. **Season Analysis:** Kharif season crops have better average yield than Rabi
 5. **Top Performers:** Top farmer profit recorded was ₹12,32,000
+
+## Database Design
+ER Diagram is used to visualize the relationships between Farmers, Crops, Yield, Rainfall, and Fertilizer tables.
+
+## Key Features
+- **5 Tables**: Farmers, Crops, Yield, Rainfall, Fertilizer
+- **5 SQL Queries**: JOINs, Aggregations, Subqueries for data analysis
+- **Insights**: Top profitable crops, low rainfall areas, fertilizer ROI
+
+## Technologies Used
+- MySQL
+- ER Diagram
+
+## Screenshots
+All query outputs are available in the `Screenshots` folder.
+
+## How to Run
+1. Import `agri_analytics_sql_project.sql` in MySQL
+2. Run the queries and compare with screenshots
