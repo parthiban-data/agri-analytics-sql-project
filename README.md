@@ -26,6 +26,7 @@ The database `agrianalytics` contains 4 tables:
 
 ## Database Design
 ER Diagram is used to visualize the relationships between Farmers, Crops, Yield, Rainfall, and Fertilizer tables.
+![ER Diagram](Screenshots/ERD.png)
 
 ## Key Features
 - **5 Tables**: Farmers, Crops, Yield, Rainfall, Fertilizer
