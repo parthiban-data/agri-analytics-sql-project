@@ -12,7 +12,7 @@ WHERE c.crop_name = 'Rice';
 SELECT f.district, w.rainfall_mm, w.temperature_c, y.yield_tons_per_acre
 FROM yield y
 JOIN farmers f ON y.farmer_id = f.farmer_id
-JOIN weather_data w ON f.farmer_id = w.farm_id
+JOIN weather_data w ON f.farmer_id = w.farmer_id
 ORDER BY y.yield_tons_per_acre DESC;
 
 -- Query 3: Fertilizer vs Income Analysis
